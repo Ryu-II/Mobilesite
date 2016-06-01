@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3-theme-yellow.css">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+<body style="max-width:600px">
+
+<nav class="w3-sidenav w3-card-2 w3-white w3-top" style="width:30%;display:none;z-index:2">
+<div class="w3-container w3-theme-d2">
+  <span onclick="w3_close()" class="w3-closenav w3-right w3-xlarge">x</span>
+  <br>
+  <div class="w3-padding w3-center">
+    <img class="w3-circle" src="PunDog.jpg" alt="avatar" style="width:75%">
+  </div>
+</div>
+<br>
+<a href="#">Dogs</a>
+<a href="#">Dog Friends</a>
+<a href="#">Barks</a>
+</nav>
+
+<header class="w3-container w3-card-4 w3-theme w3-top">
+  <h1>
+  <i class="w3-opennav fa fa-bars" onclick="w3_open()"></i>
+  Dogs
+  </h1>
+</header>
+
+<div class="w3-container" style="margin-top:75px">
+<hr>
+<div class="w3-row">
+  <div class="w3-col s3">
+    <img class="w3-circle" src="DobPin.jpg" style="width:100%">
+  </div>
+  <div class="w3-col s9 w3-container">
+    <h3 class="w3-text-red">Doberman Pinscher</h3>
+    <p>Not, in fact, the evil dog.</p>
+  </div>
+</div>  
+<hr>
+<div class="w3-row">
+  <div class="w3-col s3">
+    <img class="w3-circle" src="GShep.jpg" style="width:100%">
+  </div>
+  <div class="w3-col s9 w3-container">
+    <h3 class="w3-text-red">German Shepard</h3>
+    <p>Dog breed used to shepard the Germans.</p>
+  </div>
+</div>
+<hr>
+<div class="w3-row">
+  <div class="w3-col s3">
+    <img class="w3-circle" src="Boxer.jpg" style="width:100%">
+  </div>
+  <div class="w3-col s9 w3-container">
+    <h3 class="w3-text-red">Boxer</h3>
+    <p>Does not actually box.</p>
+  </div>
+</div>
+<hr>
+<div class="w3-row">
+  <div class="w3-col s3">
+    <img class="w3-circle" src="Doge.jpg" style="width:100%">
+  </div>
+  <div class="w3-col s9 w3-container">
+    <h3 class="w3-text-red">Shiba Inu</h3>
+    <p>Such Fluff. Much Woof. Wow.</p>
+  </div>
+</div>
+<hr>
+</div>
+
+<footer class="w3-container w3-theme w3-bottom">
+  <h3>Pawer</h3>
+</footer>
+
+<script>
+function w3_open() {
+    var x = document.getElementsByClassName("w3-sidenav")[0];
+    x.style.display = "block";
+}
+function w3_close() {
+    var x = document.getElementsByClassName("w3-sidenav")[0];
+    x.style.display = "none";
+}
+</script>
+
+</body>
+</html>
